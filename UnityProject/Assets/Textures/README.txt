@@ -1,0 +1,1 @@
+all rights for textures to https://digital-realms.itch.io/chess-pixel-art

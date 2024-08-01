@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1597999548869315224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4278673511723260959}
+  - component: {fileID: 5156976444918682464}
+  m_Layer: 0
+  m_Name: ChessBoard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4278673511723260959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597999548869315224}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.1864657, y: 2.4809484, z: -40.378616}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5156976444918682464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597999548869315224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b997037b474946c4da82c057e53f7556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiles: []
+  pieces: []
+  gameManager: {fileID: 0}
+  tilePrefab: {fileID: -5722474546099977178, guid: 023459162c57be145a257c56196b3a2d, type: 3}
+  gamePieces:
+  - {fileID: 6118679025979457712, guid: 66f6e130a3e21df4d8fb597e7d0d322e, type: 3}
+  - {fileID: 4115183146526741260, guid: aac8cd279e2d459429f8a19806e4a84c, type: 3}
+  - {fileID: 872754498570868047, guid: ea9a1a082c61a2c4382fc24e23ee4848, type: 3}
+  - {fileID: 6705470494691756294, guid: 27a65fbe115e5354b9b14d8f2e3a22e7, type: 3}
+  - {fileID: 7312033270416003158, guid: 813a0f4720ed4294097790c627eae1e1, type: 3}
+  - {fileID: 7895899208454899961, guid: 88523e1876c80594aa741c123faa6562, type: 3}
+  - {fileID: 1563243153871854640, guid: ee6538629eef0d84bb967fa8bff71a48, type: 3}
+  - {fileID: 639140690125407191, guid: 4cfe6fd2fd9fc2e4fb03053ed245e8dc, type: 3}
+  - {fileID: 4355194810771273884, guid: 689edbd07eede7742be3ba60afd28f20, type: 3}
+  - {fileID: 4423101440044284244, guid: 65572a984afec734695106697320a9f8, type: 3}
+  - {fileID: 2083795396172916818, guid: f716eeace11de564992f6e2937da7214, type: 3}
+  - {fileID: 1581613252770340194, guid: 6dab190186c41d845bcae182fdda0a47, type: 3}
+  piecePicked: {fileID: 0}
+  tilePicked: {fileID: 0}
+  startTile: {fileID: 0}
+  endTile: {fileID: 0}
+  tmpX: 0
+  tmpY: 0
+  pawnFirstX: 0
+  pawnSecondX: 0
+  pawnFirstY: 0
+  pawnSecondY: 0
+  chessBoardString: 
